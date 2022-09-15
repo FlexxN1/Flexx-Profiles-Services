@@ -14,7 +14,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         // resolve lo que hace es darnos la ruta absoluta de el S.O hasta nuestro archivo
         // para no tener conflictos entre Linux, Windows, etc
-        filename: '[name].[contenthash].js', 
+        filename: '[name].[contenthash].js'
         // EL NOMBRE DEL ARCHIVO FINAL
     },
     resolve: {
@@ -53,7 +53,7 @@ module.exports = {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,//la nueva forma de importar las fonts, desde webpack 5
                 type: "asset/resource",
                 generator: {
-                    filename: "assets/fonts/[hash][ext][query]",
+                    filename: 'assets/fonts/[hash][ext][query]',
                 },
             },
         ]
