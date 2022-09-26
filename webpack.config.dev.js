@@ -76,7 +76,6 @@ module.exports = {
             ]
         }),
         new Dotenv(),
-        new BundleAnalyzerPlugin(),
     ],
   devServer: {
     static: path.join(__dirname, 'dist'),//'static' es la nueva forma ahora en webpack 5 en adelante

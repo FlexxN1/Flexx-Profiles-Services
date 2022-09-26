@@ -1,3 +1,0 @@
-[build]
-    publish = "dist" // ¿cual va a ser la carpeta a publicar?
-    command = "npm run build" // Comando a ejecutar para el deploy

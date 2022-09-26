@@ -17,6 +17,7 @@ module.exports = {
         filename: '[name].[contenthash].js'
         // EL NOMBRE DEL ARCHIVO FINAL
     },
+    mode: 'production',
     resolve: {
         extensions: ['.js'], // LOS ARCHIVOS QUE WEBPACK VA A LEER
         alias: {
